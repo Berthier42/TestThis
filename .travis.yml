@@ -8,4 +8,5 @@ matrix:
   - name: Linux - GCC
     os: linux
     compiler: gcc
-
+    before_script:
+      - ssh git@github
