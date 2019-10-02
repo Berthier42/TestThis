@@ -1,5 +1,5 @@
-hello: 
-	bash test.sh
+main:
+	@echo "main"
 	
 test:
 	@echo "test"
