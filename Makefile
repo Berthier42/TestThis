@@ -1,0 +1,2 @@
+hello: 
+	bash test.sh
