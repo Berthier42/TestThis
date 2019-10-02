@@ -5,9 +5,7 @@ branches:
   - master
  
 matrix:
-  fast_finish: true
-  - stage: Build and test
-  name: Linux - GCC
+  - name: Linux - GCC
     os: linux
     compiler: gcc
     before_install:
